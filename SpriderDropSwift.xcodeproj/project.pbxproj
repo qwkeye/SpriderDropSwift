@@ -15,6 +15,9 @@
 		D770FD311A3215B900664274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D770FD301A3215B900664274 /* Images.xcassets */; };
 		D770FD341A3215B900664274 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D770FD321A3215B900664274 /* LaunchScreen.xib */; };
 		D770FD401A3215B900664274 /* SpriderDropSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D770FD3F1A3215B900664274 /* SpriderDropSwiftTests.swift */; };
+		D770FD4A1A32165B00664274 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D770FD491A32165B00664274 /* README.md */; };
+		D770FD4E1A32180900664274 /* alien-sfx.caf in Resources */ = {isa = PBXBuildFile; fileRef = D770FD4C1A32180900664274 /* alien-sfx.caf */; };
+		D770FD4F1A32180900664274 /* blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D770FD4D1A32180900664274 /* blues.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		D770FD391A3215B900664274 /* SpriderDropSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriderDropSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D770FD3E1A3215B900664274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D770FD3F1A3215B900664274 /* SpriderDropSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriderDropSwiftTests.swift; sourceTree = "<group>"; };
+		D770FD491A32165B00664274 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D770FD4C1A32180900664274 /* alien-sfx.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alien-sfx.caf"; sourceTree = "<group>"; };
+		D770FD4D1A32180900664274 /* blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blues.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		D770FD171A3215B800664274 = {
 			isa = PBXGroup;
 			children = (
+				D770FD491A32165B00664274 /* README.md */,
 				D770FD221A3215B900664274 /* SpriderDropSwift */,
 				D770FD3C1A3215B900664274 /* SpriderDropSwiftTests */,
 				D770FD211A3215B900664274 /* Products */,
@@ -81,6 +88,7 @@
 		D770FD221A3215B900664274 /* SpriderDropSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D770FD4B1A32180900664274 /* Sound */,
 				D770FD251A3215B900664274 /* AppDelegate.swift */,
 				D770FD271A3215B900664274 /* GameScene.sks */,
 				D770FD291A3215B900664274 /* GameScene.swift */,
@@ -116,6 +124,15 @@
 				D770FD3E1A3215B900664274 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D770FD4B1A32180900664274 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D770FD4C1A32180900664274 /* alien-sfx.caf */,
+				D770FD4D1A32180900664274 /* blues.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +217,8 @@
 			files = (
 				D770FD341A3215B900664274 /* LaunchScreen.xib in Resources */,
 				D770FD311A3215B900664274 /* Images.xcassets in Resources */,
+				D770FD4F1A32180900664274 /* blues.mp3 in Resources */,
+				D770FD4E1A32180900664274 /* alien-sfx.caf in Resources */,
 				D770FD281A3215B900664274 /* GameScene.sks in Resources */,
 				D770FD2F1A3215B900664274 /* Main.storyboard in Resources */,
 			);
@@ -221,6 +240,7 @@
 			files = (
 				D770FD2A1A3215B900664274 /* GameScene.swift in Sources */,
 				D770FD2C1A3215B900664274 /* GameViewController.swift in Sources */,
+				D770FD4A1A32165B00664274 /* README.md in Sources */,
 				D770FD261A3215B900664274 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
